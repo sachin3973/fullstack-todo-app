@@ -1,0 +1,12 @@
+.add-border-style {
+  width: 80%;
+  padding: 2rem;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.add-border-style:hover {
+  border: 5px solid #0071e5;
+  box-shadow: 26px 26px 0px 10px #f9a826;
+  transition: all 0.3s;
+}

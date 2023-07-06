@@ -1,0 +1,12 @@
+.completedTodo {
+  color: darkgrey;
+  text-decoration: line-through;
+}
+
+.red-color {
+  color: red;
+}
+
+.clickable {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+<form (submit)="handleAdd()" class="input-group mb-3 w-100">
+  <input
+    type="text"
+    name="todo"
+    [(ngModel)]="todoTitle"
+    placeholder="Enter a Todo"
+    class="form-control"
+    required
+  />
+
+  <div class="input-group-append">
+    <button (submit)="handleAdd()" class="btn btn-primary">Add Todo</button>
+  </div>
+</form>
